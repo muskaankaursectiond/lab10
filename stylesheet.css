@@ -1,0 +1,158 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General Styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333333; 
+    background-color: #F4CED9; 
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #8B1E3F; 
+  }
+  .navbar-brand img {
+    max-height: 40px;
+  }
+  .navbar-nav .nav-link {
+    color: #F4CED9 
+    font-weight 500;
+    transition: color 0.3s ease;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #B8B5B0; 
+  }
+  
+  /* Hero Section */
+  .container.text-center img {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+  }
+  .container.text-center h1 {
+    font-size: 2.5rem;
+    color: #8B1E3F;
+    margin-top: 15px;
+  }
+  .container.text-center p {
+    color: #666666;
+    font-size: 1.1rem;
+  }
+  
+  /* Services Section */
+  #new-arrivals h2 {
+    font-size: 2rem;
+    color: #8B1E3F; 
+    margin-bottom: 20px;
+  }
+  .service {
+    padding: 20px;
+    color: white; 
+  }
+  
+  
+  #new-arrivals .col-md-4 {
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  #new-arrivals .col-md-4:hover {
+    transform: scale(1.05);
+  }
+  #new-arrivals h3 {
+    font-size: 1.25rem;
+    color: #333333; 
+  }
+  #new-arrivals p {
+    color: #777777;
+    font-size: 1rem;
+  }
+  
+  /* Portfolio Section */
+  #bestsellers h2 {
+    font-size: 2rem;
+    color: #8B1E3F; 
+    margin-bottom: 20px;
+  }
+  .card {
+    border: 1px solid #B8B5B0; 
+    transition: box-shadow 0.3s ease;
+  
+    transition: transform 0.3s ease;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(210, 224, 7, 0.2);
+  }
+  .card-title {
+    font-size: 1.2rem;
+    color: #8B1E3F; 
+    margin-top: 10px;
+  }
+  .card-text {
+    color: #555555;
+  }
+  .shop-now-btn {
+    display: inline-block;
+    padding: 12px 20px; 
+    background-color:pink; 
+    color:black; 
+    font-size: 16px; 
+    font-weight: bold; 
+    text-align: center; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+  }
+  
+  .shop-now-btn:hover {
+    background-color:rgb(104, 8, 8); 
+    color: white;
+    transform: translateY(-3px); 
+  }
+  
+  /* Contact Form */
+  #contact h2 {
+    font-size: 2rem;
+    color: #8B1E3F; 
+    margin-bottom: 20px;
+  }
+  #contact .form-control {
+    border: 1px solid #8B1E3F; 
+    border-radius: 0;
+    padding: 10px;
+  }
+  #contact .btn {
+    background-color: #8B1E3F; 
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  #contact .btn:hover {
+    background-color: #7A1B36; 
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333333; 
+    color: #F4CED9; 
+    padding: 15px 0;
+  }
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  footer div a img {
+    margin: 0 8px;
+    transition: transform 0.3s ease;
+  }
+  footer div a img:hover {
+    transform: scale(1.1);
+  }
+  
